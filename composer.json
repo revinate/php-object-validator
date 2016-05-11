@@ -1,0 +1,24 @@
+{
+    "name": "revinate/php-object-validator",
+    "description": "A clean way to specify object validation.",
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8",
+        "revinate/sequence": "^0.4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Dent",
+            "email": "jason@revinate.com"
+        }
+    ],
+    "require": {
+        "php":                        ">=5.5",
+        "revinate/php-getter-setter": "^0.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Revinate\\ObjectValidator\\": "src/"
+        }
+    }
+}
